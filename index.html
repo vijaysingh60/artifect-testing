@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vijay Singh Parihar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&display=swap">
+<style>
+  /* Layout: one word, centered on an otherwise empty field. */
+  :root {
+    --bg: #eef1f6;
+    --fg: #14213d;
+    --accent: #2f5bea;
+    --font-display: "Bricolage Grotesque", "Helvetica Neue", Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0e1424;
+      --fg: #e8ecf8;
+      --accent: #7f9bff;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0e1424;
+    --fg: #e8ecf8;
+    --accent: #7f9bff;
+    color-scheme: dark;
+  }
+  html, body { height: 100%; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    margin: 0;
+    padding-inline: 16px;
+    display: grid;
+    place-items: center;
+  }
+  h1 {
+    margin: 0;
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: clamp(2.75rem, 11vw, 7rem);
+    text-align: center;
+    letter-spacing: -0.04em;
+    line-height: 1;
+    text-wrap: balance;
+  }
+  h1 span { color: var(--accent); }
+</style>
+</head>
+<body>
+<h1>vijay singh parihar<span>.</span></h1>
+</body>
+</html>
